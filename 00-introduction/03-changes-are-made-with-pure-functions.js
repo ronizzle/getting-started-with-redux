@@ -29,35 +29,35 @@ state = [
         goal: 544,
         funded: false
     }
-]
+],
 
 {
     type: 'ADD_PROJECT',
     project: 'Build Death Star',
     goal: 966
-}
+},
 
 {
     type: 'DELETE_PROJECT'
-}
+};
 
-(currentState, action) => {
+
+function setstate(action) {
     switch (action.type) {
         case 'ADD_PROJECT':
             const nextState = [
-                    ...currentState,
                 {
                     id: 3,
                     project: action.project,
-            goal: action.goal,
-            funded: false
+                    goal: action.goal,
+                    funded: false
+                }]
             return nextState;
             break;
         case 'DELETE_PROJECT':
-            const nextState = //delete project
             return nextState;
             break;
         default:
-            return currentState;
+            return action;
     }
-];
+}
