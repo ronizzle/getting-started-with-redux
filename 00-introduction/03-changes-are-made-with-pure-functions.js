@@ -16,7 +16,7 @@ function addTwoImpute(n) {
     return n + 2
 }
 
-state = [
+var state = [
     {
         id: 1,
         project: 'Project Mars',
@@ -31,13 +31,13 @@ state = [
     }
 ],
 
-{
+addingState = {
     type: 'ADD_PROJECT',
     project: 'Build Death Star',
     goal: 966
 },
 
-{
+deleteState = {
     type: 'DELETE_PROJECT'
 };
 
