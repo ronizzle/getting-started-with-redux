@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redux Plain JS Counter</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="counter"></h1>
+    <button class='btn btn-blue' id="add">Add</button>
+    <button class='btn btn-green' id="minus">Minus</button>
+    <button class='btn btn-red' id="reset">Reset</button>
+</div>
+
+<div class="container">
+    <ul id="toDoList"></ul>
+    <div>
+        <input type="text" placeholder="Enter a task" id="toDoInput" />
+    </div>
+    <div>
+        <button class='btn btn-green' id="addTask">New</button>
+        <button class='btn btn-blue' id="removeTask">Remove</button>
+        <button class='btn btn-red' id="clearTasks">Clear</button>
+    </div>
+</div>
+<script src='./counter.js'></script>
+</body>
+</html>
