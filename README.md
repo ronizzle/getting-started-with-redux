@@ -1,3 +1,3 @@
-Companion code to Getting Started With Redux (Bonus course) - under [React from the ground up course](https://www.udemy.com/reactjs-from-the-ground-up/). 
+Companion code to Redux - Made Easy](https://www.youtube.com/playlist?list=PLoAsubXIl8uKWBxNNZL_-OuXtcu82-aFN). 
 
 More information in that tutorial.
